@@ -1,0 +1,192 @@
+@font-face {
+  font-family: "Roboto";
+  src: url(https://fonts.google.com/specimen/Roboto/tester) format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+:root {
+  --text-color: black;
+  --bg-color: RGB(171, 178, 185);
+  --bg-card-color: RGB(171, 178, 185);
+  --bg-icon-color: #aeb6bf;
+}
+
+body.dark {
+  --text-color: black;
+  --bg-color: #1d202b;
+  --bg-card-color: #1d202b;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 75px;
+}
+
+.switches {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.toggle-theme {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.toggle-theme_icon {
+  margin-right: 0.5em;
+  width: 40px;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "Roboto";
+  margin: 0px;
+  padding: 0px;
+}
+
+h2 {
+  font-size: 40px;
+}
+.nav-link {
+  color: var(--text-color);
+  font-size: 20px;
+  font-family: Poppins, sans-serif;
+}
+
+body {
+  color: var(--text-color);
+  background: var(--bg-color);
+}
+
+.contenedor {
+  position: relative;
+  font-size: 25px;
+  text-align: center;
+  color: black;
+  max-width: 1200px;
+  min-height: 500px;
+  font-weight: bold;
+  background: rgb(93, 109, 126);
+  margin: auto;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.Bloque {
+  position: relative;
+  font-size: 25px;
+  text-align: center;
+  color: black;
+  max-width: 1200px;
+  min-height: 500px;
+  font-weight: bold;
+  background: rgb(93, 109, 126);
+  margin: auto;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.Banner {
+  position: relative;
+  display: flex;
+  font-size: 25px;
+  text-align: center;
+  color: black;
+  width: 90%;
+  background: rgb(93, 109, 126);
+  margin: auto;
+  padding: 20px;
+}
+
+.ul,
+li {
+  list-style: none;
+}
+
+.Expe {
+  position: relative;
+  font-size: 25px;
+  text-align: center;
+  color: black;
+  max-width: 1200px;
+  font-weight: bold;
+  background: rgb(93, 109, 126);
+  margin: auto;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.Contenedor-InformacionPer {
+  position: relative;
+  font-size: 25px;
+  text-align: center;
+  color: black;
+  max-width: 1200px;
+  min-height: 500px;
+  font-weight: bold;
+  background: rgb(93, 109, 126);
+  margin: auto;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.Carosusel-Skill {
+  position: relative;
+  width: 300px;
+}
+
+.Skill {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.Bloque {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background: rgb(93, 109, 126);
+}
+
+#Redes li {
+  display: inline;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+i.fa-brands.fa-facebook.fa-2x:hover {
+  color: #1d202b;
+}
+i.fa-brands.fa-facebook.fa-2x {
+  color: white;
+}
+
+i.fa-brands.fa-linkedin.fa-2x:hover {
+  color: #1d202b;
+}
+i.fa-brands.fa-linkedin.fa-2x {
+  color: white;
+}
+
+i.fa-brands.fa-github.fa-2x:hover {
+  color: #1d202b;
+}
+i.fa-brands.fa-github.fa-2x {
+  color: white;
+}
+i.fa-solid.fa-phone {
+  color: var(--bg-icon-color);
+}
+
+i.fa-solid.fa-location-dot {
+  color: var(--bg-icon-color);
+}
+i.fa-solid.fa-envelope {
+  color: var(--bg-icon-color);
+}
