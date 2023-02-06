@@ -32,7 +32,7 @@
 
   <body class="dark">
     <!-- INICIO NAV -->
-    <nav class="navbar navbar-expand-lg bg-light">
+    <nav class="navbar navbar-expand-lg" style="background-color: #aeb6bf">
       <div class="container-fluid">
         <a
           class="navbar-brand"
@@ -70,6 +70,73 @@
               >
             </li>
           </ul>
+          <button
+            type="button"
+            class="btn btn-light"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+            data-bs-whatever="@mdo"
+          >
+            <strong>CONTACTO</strong>
+          </button>
+          <div
+            class="modal fade"
+            id="exampleModal"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">
+                    Contactarme
+                  </h1>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div class="modal-body">
+                  <form>
+                    <div class="mb-3">
+                      <label for="recipient-name" class="col-form-label"
+                        >Email:</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control"
+                        id="recipient-name"
+                      />
+                    </div>
+                    <div class="mb-3">
+                      <label for="message-text" class="col-form-label"
+                        >Mensaje:</label
+                      >
+                      <textarea
+                        class="form-control"
+                        id="message-text"
+                      ></textarea>
+                    </div>
+                  </form>
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="button"
+                    class="btn btn-dark"
+                    data-bs-dismiss="modal"
+                  >
+                    Cerrar
+                  </button>
+                  <button type="button" class="btn btn-dark">
+                    Enviar Mensaje
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <header class="header">
           <div class="switches">
@@ -184,22 +251,35 @@
               <h1><strong>FORMACIÓN ACADÉMICA</strong></h1>
               <br />
               <ul>
-                <li>
-                  <h2>UNIVERSIDAD NACIONAL DEL NORDESTE</h2>
-                  <p>ABOGACIA - 60% DE AVANCE (EN CURSO)</p>
-                </li>
+                <div class="Rectangulo">
+                  <li>
+                    <h2>UNIVERSIDAD NACIONAL DEL NORDESTE</h2>
+                    ABOGACIA - 60% DE AVANCE (EN CURSO)
+                  </li>
+                </div>
+                <br>
+                <div class="Rectangulo">
                 <li>
                   <h2>ARGENTINA PROGRAMA</h2>
                   <p>SE PROGRAMAR - 2022 (FINALIZADA)</p>
                 </li>
+              </div>
+              <br>
+                <div class="Rectangulo">
                 <li>
                   <h2>ARGENTINA PROGRAMA 4.0</h2>
                   <p>PRIMEROS PASOS DEL DESARROLLO FRONT END (EN CURSO)</p>
                 </li>
+              </div>
+              <br>
+                <div class="Rectangulo">
                 <li>
                   <h2>OPEN BOOTCAMP</h2>
                   <p>INTRODUCIÓN A LA PROGRAMACIÓN (EN CURSO)</p>
                 </li>
+              </div>
+              <br>
+                <div class="Rectangulo">
                 <li>
                   <h2>STAR CODING IA</h2>
                   <p>FULL STACK DEVELOPER (EN CURSO)</p>
@@ -326,8 +406,10 @@
         <article id="Expe-Lab">
           <h1><strong>EXPERIENCIAS LABORALES</strong></h1>
           <br />
+          <div class="Rectangulo">
           <h2>HONORABLE CÁMARA DE DIPUTADOS DE LA PROVINCIA DE CORRIENTES</h2>
-          <p>- ADMINISTRATIVO (ACTUALIDAD)</p>
+           ADMINISTRATIVO (ACTUALIDAD)
+        </div>
         </article>
       </div>
     </main>
